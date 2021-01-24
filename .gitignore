@@ -3,6 +3,7 @@
 .dart_tool/
 .idea/
 .iml
+.flutter-plugins-dependencies
 
 .packages
 .pub/
