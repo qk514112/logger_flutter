@@ -22,7 +22,7 @@ class ShakeDetector {
     this.shakeThresholdGravity = 1.25,
     this.minTimeBetweenShakes = 160,
     this.shakeCountResetTime = 1500,
-    this.minShakeCount = 2,
+    this.minShakeCount = 6,
   });
 
   /// Starts listening to accerelometer events
