@@ -3,6 +3,7 @@ description: Flutter extension for logger. Please go there for documentation.
 version: 0.9.0
 author: Simon Leier <simonleier@gmail.com>
 homepage: https://github.com/leisim/logger_flutter
+publish_to: none
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
@@ -11,5 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  logger: ">=0.7.0"
-  sensors: ^0.4.2+4
+  logger:
+    git:
+      url: https://github.com/qk514112/logger.git
+  sensors: ^2.0.0
